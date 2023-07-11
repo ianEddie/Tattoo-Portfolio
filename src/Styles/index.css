@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('../Fonts/fonts.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply scrollbar scrollbar-thumb-secondary/30 scrollbar-w-[7px] scroll-smooth
+  }
+
+  main {
+    @apply bg-primary w-full h-screen snap-y snap-mandatory overflow-auto
+  }
+
+  .gradient {
+    background-image: url('../Assets/gradient.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

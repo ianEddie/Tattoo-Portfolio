@@ -1,10 +1,10 @@
-import machine from '../Assets/pen-2.png'
+import { machine } from '../Data/images'
 import { GoToTop } from './GoToTop'
 export function Machine () {
   return (
     <section className='w-full h-screen snap-center sm:grid sm:grid-cols-2 flex flex-col-reverse justify-center relative' id='machine'>
-      <div className='flex items-center justify-center'>
-        <img src={machine} alt='tattoo machine' className='h-[90%]' />
+      <div className='flex justify-center items-center'>
+        <img src={machine} alt='tattoo machine' className='rounded-full h-[90%]' />
       </div>
       <div className='flex flex-col items-center justify-center gap-y-5'>
         <h1 className='font-secondary text-secondary text-[5em]'>Maquina</h1>

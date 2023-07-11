@@ -1,4 +1,4 @@
-import picture from '../Assets/aboutImg.jpeg'
+import { aboutImage } from '../Data/images'
 import { GoToTop } from './GoToTop'
 export function About () {
   return (
@@ -10,7 +10,7 @@ export function About () {
         </p>
       </div>
       <div className='flex justify-center items-center gradient flex-grow'>
-        <img src={picture} alt='picture' className='h-[20em] rounded-full' />
+        <img src={aboutImage} alt='picture' className='h-[20em] rounded-full' />
       </div>
       <GoToTop />
     </section>

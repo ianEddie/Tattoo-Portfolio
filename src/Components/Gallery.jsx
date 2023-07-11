@@ -1,5 +1,5 @@
 import { Carousel } from 'flowbite-react'
-import { images } from '../Data/images,js'
+import { images } from '../Data/galleryImages.js'
 import { GoToTop } from './GoToTop'
 export function Gallery () {
   return (

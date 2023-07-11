@@ -1,0 +1,6 @@
+export const menuIcon = 'https://i.postimg.cc/RV3zrdBk/menuIcon.png'
+export const closeIcon = 'https://i.postimg.cc/dtzcJCQL/close-Icon.png'
+export const arrowIcon = 'https://i.postimg.cc/zD21PM9w/arrow-Icon.png'
+export const aboutImage = 'https://i.postimg.cc/K8BSjY4Q/aboutImg.jpg'
+export const gradient = 'https://i.postimg.cc/Ls3ck0t1/gradient.png'
+export const machine = 'https://i.postimg.cc/N0thHwHt/pen-2.png'

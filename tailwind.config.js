@@ -12,7 +12,7 @@ export default {
         secondary: ['Burn The Witch']
       },
       colors: {
-        primary: '#000000',
+        primary: '#060606',
         secondary: '#96001E'
       }
     }

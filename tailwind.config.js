@@ -9,7 +9,7 @@ export default {
     extend: {
       fontFamily: {
         primary: ['Pirata One, cursive'],
-        secondary: ['Burn The Witch']
+        secondary: ['BurnTheWitch-8Wr2']
       },
       colors: {
         primary: '#060606',
